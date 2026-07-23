@@ -1,0 +1,16 @@
+#include <iostream> 
+#include <vector>
+
+
+int main() {
+
+    int correct = 9;
+    int questions = 10;
+    
+    double score = correct / (double)questions * 100;
+
+    std::cout << score << "%" ;
+
+    return 0;
+    
+}
